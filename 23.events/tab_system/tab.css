@@ -1,0 +1,33 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1f1f1;
+}
+
+#tabs .tab-titles {
+    margin-bottom: 3rem;
+}
+
+#tabs .tab-titles li {
+    display: inline-block;
+    background-color: #d9d9d9;
+    padding: 0.4rem 0.6rem;
+    transition: all 0.2s ease-in-out;
+}
+
+#tabs .tab-titles li.active
+#tabs .tab-titles li:hover {
+    background-color: #a8a8a8;
+    color: white;
+    cursor: pointer;
+}
+
+#tabs > div {
+    display: none;
+}
+
+#tabs > div.active {
+    display: block;
+    box-shadow: 0 0 2px #ccc;
+    padding: 1rem 2rem;
+    background-color: #fff;
+}

@@ -1,0 +1,8 @@
+.check {
+    color: green;
+    padding-left: 0.5rem;
+}
+
+ul li:hover {
+    cursor: pointer;
+}

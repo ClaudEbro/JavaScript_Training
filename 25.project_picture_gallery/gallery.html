@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./gallery.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+     crossorigin="anonymous">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>Picture Gallery</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center text-center align-items-center">
+            <div class="col-12">
+                <h1>Diapo</h1>
+            </div>
+            <div class="col-1" id="prev">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="col-5" id="gallery">
+                <img src="img/01_JHS.jpg" alt="" class="img-fluid">
+                <img src="img/02_Holy_Spirit.jpg" alt="" class="img-fluid">
+                <img src="img/03_Saints_Archanges.jpg" alt="" class="img-fluid">
+                <img src="img/04_Santa_Gianna_Beretta_Molla.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-1" id="next">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <span id="pause"><i class="fas fa-pause"></i></span>
+                <span id="play"><i class="fas fa-play"></i></span>
+            </div>
+        </div>
+    </div>
+    <script src="./gallery.js"></script>
+</body>
+</html>

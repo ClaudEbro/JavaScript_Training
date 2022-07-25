@@ -1,0 +1,15 @@
+body {
+    background: white;
+    color: #323232;
+  }
+  
+  h1,
+  h2 {
+    text-decoration: underline;
+  }
+  
+  .selected {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+  }

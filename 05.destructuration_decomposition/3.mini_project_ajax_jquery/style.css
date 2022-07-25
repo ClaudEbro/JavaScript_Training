@@ -1,0 +1,8 @@
+.container {
+ text-align: center;
+}
+
+.ui.celled.table {
+    width: 60%;
+    margin: auto;
+}
